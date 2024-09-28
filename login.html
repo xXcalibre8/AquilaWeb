@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Management System Login</title>
+    <link rel="stylesheet" href="CSS/main.css">
+
+</head>
+<body class="login-body">
+    <video autoplay muted loop class="video-background">
+        <source src="imgsrcs/bg.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="login-container">
+        <div class="logo-placeholder"><img src="imgsrcs/aquila.png?w=150&h=150" alt="Aquila Corps Logo" class="logo"></div>
+        <h1>System Management Portal</h1>
+        <form action="admin.html" method="GET">
+
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" required>
+            
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            
+            <button type="submit">Log In</button>
+        </form>
+        <div class="forgot-password">
+            <a href="#">Forgot password?</a>
+        </div>
+    </div>
+</body>
+</html>
